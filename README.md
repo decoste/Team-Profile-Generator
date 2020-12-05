@@ -57,3 +57,9 @@ Screenshot fo testing:
 Screenshot of the team.html file:
 
 ![test](./Assets/images/website.PNG)
+
+## Bonus
+
+* Screenshot of the validation to ensure that the information provided is in the proper expected format:
+
+![test](./Assets/images/validation.gif)
