@@ -37,6 +37,12 @@ function showMenu() {
             type: "input",
             name: "email",
             message: "Enter the employee email address: ",
+            validate: input => {
+                if (!/(.+)@(.+){2,}\.(.+){2,}/.test(input)){
+                    return "Invalid email"
+                }
+                else return true
+            }
         },
         {
             type: "list",
@@ -87,9 +93,14 @@ function showMenu() {
             type: "input",
             message: "Would you like to add another employee?(y or n)",
             choices: ["y", "n"],
+            validate: input => {
+                if (input === "y" || input === "n"){
+                    return true
+                }
+                else return "Please enter (y) or (n)"
+            }
         }]
         ).then((input) => {
-            
             if (input.role === "Manager") {
                 const emp = new Manager(
                     input.name,
@@ -99,7 +110,6 @@ function showMenu() {
                 );
                 team.push(emp)
             }
- 
             else if (input.role === "Intern") {
                 const emp = new Intern(
                     input.name,
@@ -123,21 +133,14 @@ function showMenu() {
             }
             else {
                 const renderteam = render(team);
-
             console.log(input);
-
-            console.log(team);
-
-            
             fs.writeFile(outputPath, renderteam, {}, (err) =>
                 err ? console.log(err) : console.log("HTML file created")
             );
             //create HTML file
-
         }
     }
         )
-
         .catch((err) => {
             console.log(err);
         });
