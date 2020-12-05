@@ -132,8 +132,8 @@ function showMenu() {
                 return showMenu();
             }
             else {
+                console.log(team)
                 const renderteam = render(team);
-            console.log(input);
             fs.writeFile(outputPath, renderteam, {}, (err) =>
                 err ? console.log(err) : console.log("HTML file created")
             );
