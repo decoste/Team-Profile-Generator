@@ -44,5 +44,7 @@ The following is my Github account:
 [decoste](https://github.com/decoste)
 
 Please feel free to send me an email if you have any question(s) aladecoste@gmail.com
+![README generator demo](./Assets/team.gif)
 
-[test](./Assets/test.PNG)
+
+![test](./Assets/test.PNG)
