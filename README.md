@@ -45,4 +45,4 @@ The following is my Github account:
 
 Please feel free to send me an email if you have any question(s) aladecoste@gmail.com
 
-![ScreenShot](./Assets/test.PNG)
+![test](./Assets/test.PNG)
