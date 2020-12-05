@@ -13,7 +13,7 @@ The user can input any number of team members, and they may be a mix of engineer
 
 The following GIF demonstrates the application functionality:
 
-![README generator demo]()
+![README generator demo](./Assets/images/readMe.gif)
 
 ## Installation
 The user need to install Node.js and git bash, also the user should install the required node dependencies.
@@ -24,6 +24,7 @@ The user need to install Node.js and git bash, also the user should install the 
   * [Contributing](#contributing)
   * [Test](#test)
   * [Questions](#questions)
+  * [Test](#test)
   * [License](#license)
 
 ## Usage
@@ -39,12 +40,20 @@ If you would like to contribute, please check out the listed-below CONTRIBUTING 
 ## License
 MIT license
 
+## Test
+Testing using Jest
+
 ## Questions
 The following is my Github account:
 [decoste](https://github.com/decoste)
 
 Please feel free to send me an email if you have any question(s) aladecoste@gmail.com
-![README generator demo](./Assets/images/team.gif)
 
+
+Screenshot fo testing:
 
 ![test](./Assets/images/test.PNG)
+
+Screenshot of the team.html file:
+
+![test](./Assets/images/website.PNG)
