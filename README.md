@@ -60,6 +60,6 @@ Screenshot of the team.html file:
 
 ## Bonus
 
-* Screenshot of the validation to ensure that the information provided is in the proper expected format:
+* GIF showing the validation to ensure that the information provided is in the proper expected format:
 
 ![test](./Assets/images/validation.gif)
