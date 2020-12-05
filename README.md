@@ -13,7 +13,7 @@ The user can input any number of team members, and they may be a mix of engineer
 
 The following GIF demonstrates the application functionality:
 
-![README generator demo](./Assets/images/readMe.gif)
+![team profile generator demo](./Assets/images/team.gif)
 
 ## Installation
 The user need to install Node.js and git bash, also the user should install the required node dependencies.
